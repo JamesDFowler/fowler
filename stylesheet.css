@@ -66,7 +66,7 @@ word-break: break-all;
         grid-template-rows: minmax(50px, auto)repeat(5, 40px);
         }
         .calculator-grid button{
-            font-size: 2rem;
+            font-size: 0.8rem;
             border: 1px solid white;
             outline: none;
             background-color: rgba(255, 255, 255, .75);
