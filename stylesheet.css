@@ -51,7 +51,7 @@ word-break: break-all;
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
     body{
         padding:0;
         margin:0;
@@ -66,15 +66,12 @@ word-break: break-all;
         grid-template-rows: minmax(50px, auto)repeat(5, 40px);
         }
         .calculator-grid button{
-            cursor: pointer;
             font-size: 2rem;
             border: 1px solid white;
             outline: none;
             background-color: rgba(255, 255, 255, .75);
         }
-        .calculator-grid button:hover{
-            background-color: rgba(255, 255, 255, .90);
-        }
+
         .span-two{
             grid-column: span 2;
         }
@@ -98,3 +95,4 @@ word-break: break-all;
             font-size: 2.5rem;
         }
 }
+
